@@ -1,0 +1,102 @@
+/*
+ * https://ozz.life/ - Cascading Style Sheets
+ ******************************************************************************/
+
+/*
+ * Links
+ ******************************************************************************/
+
+ a:link {
+	color: #0000FF;
+}
+
+a:visited {
+	color: #AA0000;
+}
+
+a:hover {
+	background: #0000FF;
+	color: #FFFFFF;
+}
+
+a:active {
+	color: #AA0000;
+}
+
+a:focus {
+	border: 1px;
+	background: #0000FF;
+	color: #FFFFFF;
+}
+
+/*
+ * Fonts
+ ******************************************************************************/
+
+
+ @font-face {
+	font-family: "Comfortaa";
+	font-style: normal;
+	font-weight: 300;
+	src: local("Comfortaa Light"), local("Comfortaa-Light"), url("http://themes.googleusercontent.com/static/fonts/comfortaa/v4/r_tUZNl0G8xCoOmp_JkSCp1r3JsPcQLi8jytr04NNhU.woff") format("woff");
+}
+@font-face {
+	font-family: "Comfortaa";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Comfortaa"), local("Comfortaa-Regular"), url("http://themes.googleusercontent.com/static/fonts/comfortaa/v4/Be0CkOtwwI2n86HMhtablT8E0i7KZn-EPnyo3HZu7kw.woff") format("woff");
+}
+
+/*
+ * Body
+ ******************************************************************************/
+
+
+body {
+	font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
+	font-size: 1em;
+	margin: 1em 8% 1em 10%;  
+	line-height: 1.2;
+}
+
+
+p {
+	text-align: justify;
+}
+
+hr {
+	color: #555; /*��� IE */
+	background-color:#555; /*��� Firefox, Opera, Safari*/
+	border:0px none; height:1px; /* ������ 1px IE, Firefox, Opera, Safari */
+	clear:both; /* ��� �������, ���� ��� ���� ����� float �������� */ }
+
+H1 {
+	font-family: "Comfortaa","Trebuchet Ms";
+	font-size: 40px;
+	font-weight: 300;
+	color: #AA0000;
+}
+H2 {
+	font-family: "Comfortaa","Trebuchet Ms";
+	font-size: 34px;
+	font-weight: 300;
+}
+H3 {
+	font-family: "Comfortaa","Trebuchet Ms";
+	font-size: 28px;
+	font-weight: 300;
+}
+
+/*
+ * DIV
+ ******************************************************************************/
+
+div.screen {
+	white-space: pre;
+	font-family: monospace;
+	padding: 1ex;
+}
+
+.userinput {
+	font-weight: normal;
+}
