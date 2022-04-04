@@ -1,21 +1,23 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import App from "./App";
 
-import { ApolloProvider } from '@apollo/client/react';
-import { ApolloClient, InMemoryCache } from '@apollo/client';
+import { ApolloProvider } from "@apollo/client/react";
+import { ApolloClient, InMemoryCache } from "@apollo/client";
 
 const client = new ApolloClient({
-    uri: 'https://api.spacex.land/graphql/',
-    cache: new InMemoryCache()
+  uri: "https://api.spacex.land/graphql/",
+  cache: new InMemoryCache(),
 });
 
-ReactDOM.render(
-  <React.StrictMode>
+const rootElement = document.getElementById("root") as HTMLElement
+const root = createRoot(rootElement)
+
+root.render(
+  <StrictMode>
     <ApolloProvider client={client}>
-    <App />
+      <App />
     </ApolloProvider>
-  </React.StrictMode>,
-  document.getElementById('root')
-)
+  </StrictMode>
+);
