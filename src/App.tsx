@@ -12,6 +12,8 @@ import NotFound from './components/NotFound/NotFound'
 import MyContext from './contexts/myContext'
 import EditUser from './components/EditUser/EditUser'
 
+import { Counter } from './redux/features/counter/Counter';
+
 type User = {
     name: string,
     password: string
@@ -28,6 +30,7 @@ function app() {
                         <Route index element={<Welcome />} />
                         <Route path="welcome" element={<Welcome />}></Route>
                         <Route path="exp1" element={<Example1 />}></Route>
+                        <Route path="redux-counter" element={<Counter />}></Route>
                     </Route>
                     <Route path="adm" element={<LayoutDashboard />} >
                         <Route index element={<Welcome />} />

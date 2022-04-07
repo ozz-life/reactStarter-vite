@@ -12,7 +12,8 @@ function Layout() {
             <Header />
             <nav className="m-2">
                 <Link to="exp1">Example one (ApolloClient)</Link> | {" "}
-                <Link to="exp2">Example two (Error 404)</Link> | {" "}
+                <Link to="redux-counter">Example two (Redux-Counter)</Link> | {" "}
+                <Link to="exp2">Example (Error 404)</Link> | {" "}
                 <Link to="adm">Dashboard Layout</Link>
             </nav>
             <hr />
