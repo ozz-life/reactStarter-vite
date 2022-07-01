@@ -1,8 +1,8 @@
 /*
- * Template scheme. Not used in project code. 
+ * Template scheme. Not used in project code.
  ******************************************************************************/
 
-import { gql } from '@apollo/client';
+import { gql } from "@apollo/client";
 
 const NEW_NOTE = gql`
   mutation newNote($content: String!) {
@@ -75,5 +75,5 @@ export {
   DELETE_NOTE,
   TOGGLE_FAVORITE,
   SIGNIN_USER,
-  SIGNUP_USER
+  SIGNUP_USER,
 };

@@ -3,9 +3,9 @@
  ******************************************************************************/
 
 header.centered {
-    /* If we want align vertically on enter display
+  /* If we want align vertically on enter display
     height: 100vh; /* Magic here */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

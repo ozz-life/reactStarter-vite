@@ -1,11 +1,11 @@
-import TabsLanguage from "./TabsLanguage/TabsLanguage"
+import TabsLanguage from "./TabsLanguage/TabsLanguage";
 
 const Welcome = () => {
-    return (
-        <>
-            <TabsLanguage />
-        </>
-    )
-}
+  return (
+    <>
+      <TabsLanguage />
+    </>
+  );
+};
 
-export default Welcome
+export default Welcome;

@@ -1,8 +1,8 @@
 /*
- * Template scheme. Not used in project code. 
+ * Template scheme. Not used in project code.
  ******************************************************************************/
 
-import { gql } from '@apollo/client';
+import { gql } from "@apollo/client";
 
 const GET_NOTES = gql`
   query noteFeed($cursor: String) {
@@ -103,5 +103,5 @@ export {
   GET_MY_NOTES,
   GET_MY_FAVORITES,
   GET_ME,
-  IS_LOGGED_IN
+  IS_LOGGED_IN,
 };
