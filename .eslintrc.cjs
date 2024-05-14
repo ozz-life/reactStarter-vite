@@ -7,8 +7,8 @@ module.exports = {
   },
   plugins: ["@typescript-eslint"],
   rules: {
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error", // Checks rules of Hooks
+    "react-hooks/exhaustive-deps": "warn", // Checks effect dependencies
     "react/no-unescaped-entities": 0,
   },
   extends: [

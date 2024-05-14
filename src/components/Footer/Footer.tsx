@@ -6,8 +6,8 @@ const Footer = () => {
       <footer>
         <hr />
         <address className={styles.onRight}>
-          Stanislav Oz,{" "}
-          <a href="https://ozz.life/">&#x3c;https://ozz.life/&#x3e;</a> , 2022
+          Stanislav Ozz,{" "}
+          <a href="https://ozz.life/">&#x3c;https://ozz.life/&#x3e;</a> , 2022-2024
         </address>
       </footer>
     </>
